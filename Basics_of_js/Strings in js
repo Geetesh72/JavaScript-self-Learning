@@ -1,0 +1,33 @@
+const name = "Geetesh"
+const repoCnt = 0; 
+// console.log(name + repoCnt + "Value") // this method is not good 
+
+//  Modern way to write this  backSticks stirng inter polation 
+console.log (`Hello my name is ${name} and my repoCnt  is ${repoCnt}`);
+
+const gName = new String("geetesh-kumar-software");
+
+console.log(gName[6])
+console.log(gName.__proto__);
+console.log(gName.length)
+console.log(gName.toLocaleUpperCase());
+console.log(gName.charAt(3));
+console.log(gName.indexOf('s'))
+console.log(gName.substring(0,4));
+console.log(gName.slice(-6,4));
+const newStringOne = "    Geetesh-kumar-software-engineer"
+console.log(newStringOne)
+console.log(newStringOne.trim())
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
+
+const url = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim"
+console.log(url.replace('mozilla','Brave'))
+
+console.log(url.includes('mozilla'))
+console.log(gName.split('-'))
+
+
+
+
+
+
