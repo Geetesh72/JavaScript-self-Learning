@@ -1,0 +1,30 @@
+/*primitive dataType
+7 type = string , number  , Boolean , null , undefined  , symbol 
+refrence Non primitive
+array , objects, funtion */ //return object 
+const heros = ["Shaktiman ","Ironman"]
+let myobj ={
+    name: "heetesh",
+    age:22,
+
+
+}
+// function(){}
+const myFuction = function(){
+    console.log("Hello World")
+}
+myFuction()
+/*Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object */
